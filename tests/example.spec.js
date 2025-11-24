@@ -8,7 +8,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle('STORE');
   
   page.locator('#login2').click();
-  page.locator('#loginusername').fill('Redyyyyyy');
+  page.locator('#loginusername').fill('Reddyyyyyy');
   page.locator('//*[@id="loginpassword"]').fill('kunduru');
   //page.click('#logInModal > div > div > div.modal-footer > button.btn.btn-primary')
   page.locator('button:has-text("Log in")');
