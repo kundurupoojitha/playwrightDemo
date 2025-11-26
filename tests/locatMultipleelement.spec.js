@@ -33,6 +33,6 @@ test('Print all product names from Demoblaze', async ({ page }) => {
     console.log(productPrice);
   }
 
- // console.log('\n✅ All product names printed successfully.\n');
+  console.log('\n✅ All product names printed successfully.\n');
 });
 
